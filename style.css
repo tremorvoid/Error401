@@ -1,0 +1,39 @@
+html {
+
+
+  background-repeat: no-repeat; 
+  background-image: url('yy.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.cont {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-cont {
+    margin-top: 5rem;
+    display: flex;
+
+}
+
+.img1 {
+    margin-right: 15rem;
+    margin-bottom: 10rem;
+}
+
+img {
+    width: 300px;
+}
+
+
+.opa {
+    opacity: 0;
+    width: 10px;
+}
