@@ -10,8 +10,8 @@ html {
 }
 .cont {
     display: flex;
-    height: 90vh;
-    width: 100vw;
+    height: 90rem;
+    width: 100rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -35,5 +35,5 @@ img {
 
 .opa {
     opacity: 0;
-    width: 10px;
+    width: 10rem;
 }
