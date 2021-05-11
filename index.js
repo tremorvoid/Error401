@@ -23,6 +23,7 @@ function decode(input) {
   
       reader.onload = function(e) {
           console.log(steg.decode(e.target.result));
+          alert("Invalid image !");
         
         document.querySelector('#decoded').innerText = steg.decode(e.target.result);
       };
