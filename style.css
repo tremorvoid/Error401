@@ -36,17 +36,6 @@ img {
     width: 10rem;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-.img-cont {
-    margin-top: 5rem;
-    display: flex;
-justify-content: center;
-    align-items: center;
-    flex-direction: column
 
-
-}
   
 }
