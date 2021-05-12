@@ -23,7 +23,9 @@ function decode(input) {
   
       reader.onload = function(e) {
           console.log(steg.decode(e.target.result));
-          alert(steg.decode(e.target.result));
+          
+
+      document.querySelector("#image1").src = e.target.result;
         
         document.querySelector('#decoded').innerText = steg.decode(e.target.result);
       };

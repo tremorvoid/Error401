@@ -18,51 +18,48 @@
   <body>
      
     <div class="cont">
-      <style>
-div {
- background-repeat: no-repeat; 
-  background-image: url('yy.png');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-</style>
+      
       
 
 
-        <div class="">
-                  <input
-          class="ui primary button"
-          type="file"
-          name="pic"
-          accept="image/*"
-          onchange="readURL(this);"
-        />
+        
+                  <div class="">
+
+      <input class="ui secondary button" type="file" name="pic" accept="image/*" onchange="readURL(this);decode(this);" />
+      <img class = "opa" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+      
+
+    </div>
        <!-- My name is Shoaib -->
 
-        </div>
+        
         <div class="img-cont">
           <div  class="img1">
             <h5><p style="color:red;">Image Preview</p>
             <img id="image1" src="" alt="" />
+      <h5>Decoded Text:</h5>
+      <h2 id="decoded"></h2>
+</div>
           <!--</div>
 
 
           <div class="">
             <h5>Message Encoded Image</h5>
             <img id="image2" src="" alt="" />
+      <h5>Decoded Text:</h5>
+      <h2 id="decoded"></h2>
 
           </div>
 
         </div>-->
-        <div class="">
+       <!--<div class="">
 
       <input class="ui secondary button" type="file" name="pic" accept="image/*" onchange="readURL(this);decode(this);" />
       <img class = "opa" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
       <h5>Decoded Text:</h5>
       <h2 id="decoded"></h2>
 
-    </div>
+    </div>-->
 
 
 

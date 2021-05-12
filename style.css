@@ -1,11 +1,11 @@
 html {
 
-
-  background-repeat: no-repeat; 
-  background-image: url('yy.png');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+background-color: powderblue;
+  /*background-repeat: no-repeat;*/
+  /*background-image: url('yy.png');*/
+ /* background-position: center;₹/
+ /* background-size: cover;*/
+ /* background-attachment: fixed;*/
 
 }
 .cont {
